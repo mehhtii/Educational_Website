@@ -1,0 +1,40 @@
+
+.pointer{
+    cursor: pointer;
+}
+.background_them{
+    background-color: #131627;
+}
+::-webkit-scrollbar{
+    width: 3px;
+    background-color: aliceblue;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: 1px 1px 4px #efc0c0;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #f9cbcb;
+}
+/* ____/coustom css for admin */
+
+
+
+
+
+
+
+
+
+
+/*____/BLog__css___styles____coustomer\______ */
+.form_box{
+    width: 50%;
+    height: auto ;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*____/BLog__css___styles____coustomer\______ */

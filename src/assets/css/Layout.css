@@ -1,0 +1,178 @@
+/* coustom css */
+
+/* coustom css */
+
+.avatar_item{
+    min-height: 10vh !important;
+}
+.content_admin{
+    max-height: 90vh !important;
+    overflow-y: scroll !important;
+}
+.avatar{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.font_2xl{
+    font-size: 1.5rem;
+}
+
+.form-controls{
+    border: 1px solid rgb(42, 81, 165) !important;
+    color: #f4f4f4 !important;
+    background-color: transparent !important;
+    transition: all ease-out .3s;
+}
+.form-controls::placeholder{
+    font-size: small;
+    color: #f4f4f4 !important;
+    transition: all ease-out .3s;
+}
+.form-controls .search:focus::placeholder{
+    color: #0080dc !important;
+    background-color: transparent;
+}
+.form-controls:focus{
+    border: 1.5px solid rgb(42, 75, 165) !important;
+    box-shadow: 0px 0px 10px rgb(3, 108, 89) !important;
+}
+
+.notif_icon{
+    cursor: pointer;
+    color: #0080dc;
+}
+
+.aouth_modal{
+    width: 200px;
+    height: 205px;
+    top: 89%;
+    left: 30%;
+    background-color: #1d2c37;
+}
+
+.to_bottom_anim_modal{
+    transition: all ease-in .3s;
+    animation: topAnim ease-in .3s;
+}
+
+
+@keyframes topAnim {
+    from{
+        transform: translateY(-50px);
+        z-index: -10;
+    }
+    to{
+        transform: translateY(0px);
+        z-index: 1;
+    }
+}
+
+
+.to_top_anim_modal{
+    transition: all ease-in .2s;
+    animation: TotopAnim ease-in .3s;
+}
+
+@keyframes TotopAnim {
+    from{
+        transform: translateY(0);
+        z-index: -10;
+    }
+    to{
+        transform: translateY(-50px);
+        z-index: 1;
+    }
+}
+
+.aouth_avatar{
+    height: 40%;
+}
+.close_modal{
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 80%;
+    margin-top: 10px;
+}
+.aouth_modal button{
+    margin-right: 60%;
+}
+
+
+/*++++++======+++++SideBar Coustom Css Styles  */
+
+
+.top_side_bar{
+    min-height: 70px;
+}
+.sidebar_itmes{
+    transition: all ease-out .3s;
+}
+.sidebar_itmes:hover{
+    background-color: #0080dc;
+}
+.admin_sidebar{
+    min-height: 100vh;
+}
+
+/*++++++======+++++SideBar Coustom Css Styles  */
+
+
+
+
+/*++++++======+++++Content Coustom Css Styles  */
+
+.btn_create{
+    /* padding: 8px 10px; */
+    width:120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: rgb(0, 119, 128);
+}
+
+.hidden_modal{
+    opacity: 0;
+    top: -100%;
+    transition: all ease-in .4s;
+}
+.active_modal{
+    opacity: 1;
+    top: 0%;
+    transition: all ease-in .4s;
+}
+.close_modal_blog{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    text-align: end;
+    margin-right: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-bottom: 7px;
+    padding-right: 1px;
+    color: #f4f4f4;
+    z-index: 99 !important;
+}
+
+.btn_submit{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    transition: all ease .3s;
+    background-color: #0080dc;
+    color: #f4f4f4;
+    width: 120px !important;
+  }
+  .font_color{
+    color: #0080dc;
+  }
+
+/*++++++======+++++Content Coustom Css Styles  */
+
+

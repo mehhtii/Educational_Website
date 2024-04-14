@@ -1,0 +1,24 @@
+@font-face {
+    font-family: estedadMedium;
+    src: url('Estedad-Medium.ttf'),
+    url('Estedad-Medium.woff2');
+    font-family: estedadBold;
+    src: url('Estedad-ExtraBold.woff2'),
+    url('Estedad-ExtraBold.ttf');
+}
+.h_one,.h_five{
+    font-family: estedadBold !important;
+}
+.p_font_family{
+    font-family: estedadBold !important;
+}
+.background_them{
+    background-color: #131627;
+}
+.font_blod{
+    font-weight: bold;
+}
+.pointer{
+    cursor: pointer;
+}
+

@@ -1,0 +1,222 @@
+/* custom Css Styles */
+
+.progress_top{
+  background-color: #36faa9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  transform-origin: 0%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;}
+/* custom Css Styles */
+
+
+.navabr_container {
+  height: 70px;
+  background-color: #292929;
+}
+.navbar_items {
+  font-weight: bold;
+  transition: all ease-out 0.2s;
+}
+
+.active_navbar{
+  color: #1396e6 !important;
+  text-decoration: none !important;
+}
+
+.navbar_items .link {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  text-align: center;
+  transition: all ease-out 0.2s;
+}
+.link:hover {
+  color: #1396e6 !important;
+}
+.btn_login {
+  background-color: #1396e6 !important;
+  color: aliceblue !important;
+  transition: all ease-out 0.3s !important;
+}
+.btn_login:hover {
+  box-shadow: 0 0 15px black;
+  text-shadow: 0 0 10px black;
+}
+
+/* ___/------\_____Footer Css Styles____/------\___ */
+
+.footer {
+  height: 200px;
+  background-color: #292929;
+}
+.icons {
+  font-size: 1.8em !important;
+  transition: all ease-out 0.3s;
+}
+.icons:hover {
+  transform: scale(1.2);
+}
+
+.eamil_input {
+  width: 260px;
+  transition: all ease-out 0.2s;
+  padding: 6px 15px !important;
+  transition: all ease-out 0.2s;
+}
+.eamil_input:focus {
+  outline: none;
+  border: none;
+  box-shadow: 4px 0 10px #025486;
+}
+.eamil_input:focus ~ .btn_email_submit {
+  box-shadow: 0 0 10px #025486;
+}
+.eamil_input::placeholder {
+  font-size: small;
+}
+.eamil_input:focus::placeholder {
+  color: #1396e6;
+}
+
+.btn_email_submit {
+  background-color: #1396e6;
+  border: none;
+  outline: none;
+  padding: 6px 10px 6px 13px;
+  transition: all ease-out 0.2s;
+}
+/* ___/------\_____Footer Css Styles____/------\___ */
+
+/*____/--------\_______Blog Css Styles____/--------\_______ */
+
+.blog_box {
+  width: 80%;
+  /* background-color: darkgoldenrod; */
+  border-radius: 18px;
+  background: linear-gradient(145deg, #ffffff, #ffffff);
+  box-shadow: 31px 31px 62px #bebebe, -31px -31px 62px #ffffff;
+}
+.blog_paragraph {
+  width: 100%;
+  height: 30px !important;
+  overflow: hidden !important;
+}
+
+/*____/--------\_______Blog Css Styles____/--------\_______ */
+
+
+
+
+
+
+
+/*______/--------\______home Css Styles____/---====---\_____ */
+
+
+.head_background{
+  width: 100%;
+  height: 600px;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.coursess_search_inpt{
+  color: black !important;
+}
+.coursess_search_inpt::placeholder{
+  color: rgb(139, 139, 139) ;
+}
+.coursess_search_icon{
+  top: 22%;
+  left: 16px;
+  color: #1396e6;
+  text-shadow: 0 10px 8px #000000;
+}
+.text_color_custom{
+  color: #1396e6;
+  text-shadow: 0 10px 8px #000000;
+}
+.header_board_parent{
+  height: 300px;
+}
+.header_board{
+  width: 90%;
+  height: 300px;
+  background-color: #e4e3e3;
+  position: absolute;
+  top: -20%;
+}
+
+
+.explanation{
+  background-color: #F3F3F3;
+}
+.expalnation_img_box{
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+@media only screen and (max-width:768px) {
+  .expalnation_img_box{
+    height: 250px;
+  }
+  .header_board p{
+    display: none;
+  }
+}
+.expalnation_img{
+  transform: rotate(-5deg);
+  z-index: 2;
+  box-shadow: 3px 4px 5px rgb(125, 125, 125);
+}
+.expalnation_shadow{
+  position: absolute; 
+  background-color: rgb(155, 155, 155);
+  z-index: 1;
+  border-radius: 10px;
+  top: 16%;
+  left: 15%;
+  transform: rotate(-1deg);
+  box-shadow: 3px 4px 5px rgb(125, 125, 125);
+}
+
+
+
+/*the last courses Css Styles  */
+
+.last_courses{
+  height: 500px;
+  background-color: #ffffff;
+}
+.courses_card{
+  width: 90%;
+  height: 75%;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.img_box_card{
+  height: 60%;
+  padding: 12px;
+}
+.arrow_div{
+  height: 2px;
+  width: 85%;
+  background-color: #0f0e0e;
+  margin-top: 29px;
+}
+.more_btn{
+  border: none;
+  outline: none;
+  width: auto ;
+  height: 40px;
+  background-color: #1396e6;
+  color: #ffffff;
+}
+/*the last courses Css Styles  */
+/*______/--------\______home Css Styles____/---====---\_____ */
+
+
+
